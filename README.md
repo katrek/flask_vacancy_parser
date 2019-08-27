@@ -1,0 +1,1 @@
+Vacancy parser (https://github.com/katrek/vacancy_parser) realized on flask

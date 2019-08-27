@@ -8592,6 +8592,7 @@
       <change afterPath="$PROJECT_DIR$/../flaskFromBook" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskMail/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flask_parser/hh_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskr/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskr/.idea/flaskr.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flaskr/.idea/libraries/R_User_Library.xml" afterDir="false" />
@@ -14521,6 +14522,7 @@
       <change afterPath="$PROJECT_DIR$/../untitled1/vichislenie/18.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled1/vichislenie/20.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../work_parser/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14571,19 +14573,10 @@
         <option value="$PROJECT_DIR$/templates/work.html" />
         <option value="$PROJECT_DIR$/rabota_ua.py" />
         <option value="$PROJECT_DIR$/templates/rabota.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -14708,17 +14701,18 @@
       <option name="presentableId" value="Default" />
       <updated>1566747070574</updated>
       <workItem from="1566747085678" duration="483000" />
-      <workItem from="1566748044487" duration="21320000" />
+      <workItem from="1566748044487" duration="21532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21803000" />
+    <option name="totallyTimeSpent" value="22015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17770597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17770597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -14732,7 +14726,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32970452" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32970452" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -14830,6 +14824,16 @@
             <caret column="75" selection-start-column="75" selection-end-column="75" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -30,7 +30,6 @@ def Parser(base_url, headers):
     for url in urls:
         request = session.get(url, headers=headers)
         soup = bs(request.content, 'html.parser')
-        # divs = soup.find_all('div', attrs={'class' : 'vacancy-serp-item'})
         divs = soup.find_all('div', attrs={'data-qa' : 'vacancy-serp__vacancy'})
         for div in divs:
             title = div.find('a', attrs={'data-qa' : 'vacancy-serp__vacancy-title'}).text
@@ -56,7 +55,4 @@ def Parser(base_url, headers):
             print('Parsing done.')
             print('Parsed in ', str(parse_time_result), 'seconds')
     return jobs
-
-Parser(base_url, headers)
-
 

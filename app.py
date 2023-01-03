@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from parser import Parser, headers, base_url
+from parser_1 import Parser, headers, base_url
 from work_ua import Parser_work_ua, headers_work, base_url_work
 from rabota_ua import Parser_rabota, headers_rabota, base_url_rabota
 

@@ -7,7 +7,7 @@ headers = {
     'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'
 }
 
-base_url = 'https://kiev.hh.ua/search/vacancy?L_is_autosearch=false&area=115&clusters=true&currency_code=UAH&enable_snippets=true&text=python&page=0'
+base_url = 'https://kiev.hh.ua/search/vacancy?L_is_autosearch=false&area=115&clusters=true&currency_code=UAH&enable_snippets=true&text=front&page=0'
 
 def Parser(base_url, headers):
     parse_time_start = time.time()
@@ -22,7 +22,7 @@ def Parser(base_url, headers):
             pagination = soup.find_all('a', attrs={'data-qa' : 'pager-page'})
             count = int(pagination[-1].text)
             for i in range(count):
-                url = f'https://kiev.hh.ua/search/vacancy?L_is_autosearch=false&area=115&clusters=true&currency_code=UAH&enable_snippets=true&text=python&page={i}'
+                url = f'https://kiev.hh.ua/search/vacancy?L_is_autosearch=false&area=115&clusters=true&currency_code=UAH&enable_snippets=true&text=front&page={i}'
                 if url not in urls:
                     urls.append(url)
         except:
